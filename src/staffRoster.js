@@ -19,7 +19,6 @@ export const PEGAWAI_ROSTER = [
   { name: "SRI LESTARI WASIS, SHI", position: "Panitera Muda Permohonan" },
   { name: "ARIF RACHMANTO, ST., S.H.", position: "Panitera Muda Hukum" },
   { name: "SUSANTO, SH", position: "Panitera Muda Gugatan" },
-  { name: "ROBIN KADIR, S.Ag", position: "Kepala Sub Bagian PTIP" },
   { name: "A.ROISUL ALAM AMRULLOH P, SHI", position: "Kepala Sub Bagian Umum dan Keuangan" },
   { name: "NUR KHAIRANI ZULFAH, S.T.", position: "Kepala Sub Bagian Kepegawaian dan Ortala" },
   { name: "ACHMAD RATHOMI, S.H.", position: "Panitera Pengganti Tingkat Banding (Diperbantukan di PA Purwokerto" },
