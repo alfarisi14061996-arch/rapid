@@ -22,6 +22,8 @@ export const PEGAWAI_ROSTER = [
   { name: "ROBIN KADIR, S.Ag", position: "Kepala Sub Bagian PTIP" },
   { name: "A.ROISUL ALAM AMRULLOH P, SHI", position: "Kepala Sub Bagian Umum dan Keuangan" },
   { name: "NUR KHAIRANI ZULFAH, S.T.", position: "Kepala Sub Bagian Kepegawaian dan Ortala" },
+  { name: "ACHMAD RATHOMI, S.H.", position: "Panitera Pengganti Tingkat Banding (Diperbantukan di PA Purwokerto" },
+  { name: "ELVI SETYANINGSIH, S.H.", position: "Panitera Pengganti Tingkat Banding (Diperbantukan di PA Purwokerto" },
   { name: "ARDI KRISTANTO, S.H., M.H.", position: "Panitera Pengganti" },
   { name: "NUR ALIYAH", position: "Panitera Pengganti" },
   { name: "AGUNG FEBRI SETIYAWANTORO", position: "Juru Sita" },
