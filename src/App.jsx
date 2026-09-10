@@ -31,9 +31,8 @@ function sortAttendees(attendees) {
 const MEETING_CATEGORIES = ["Rapat Pimpinan", "Rapat Rutin", "Rapat Evaluasi", "Rapat Koordinasi", "Lainnya"];
 
 const CATEGORY_COLORS = {
-  "Rapat Pimpinan": "bg-purple-100 text-purple-700",
   "Rapat Rutin": "bg-stone-100 text-stone-600",
-  "Rapat Evaluasi": "bg-amber-100 text-amber-700",
+  "Rapat Monitoring dan Evaluasi": "bg-amber-100 text-amber-700",
   "Rapat Koordinasi": "bg-sky-100 text-sky-700",
   Lainnya: "bg-stone-100 text-stone-600",
 };
