@@ -28,7 +28,7 @@ function sortAttendees(attendees) {
     });
 }
 
-const MEETING_CATEGORIES = ["Rapat Pimpinan", "Rapat Rutin", "Rapat Evaluasi", "Rapat Koordinasi", "Lainnya"];
+const MEETING_CATEGORIES = ["Rapat Rutin", "Rapat Monitoring dan Evaluasi", "Rapat Koordinasi", "Lainnya"];
 
 const CATEGORY_COLORS = {
   "Rapat Rutin": "bg-stone-100 text-stone-600",
@@ -42,7 +42,7 @@ const emptyDraft = () => ({
   title: "",
   date: todayLocalStr(),
   leader: "",
-  category: MEETING_CATEGORIES[1],
+  category: MEETING_CATEGORIES[0],
   agenda: "",
   discussion: "",
   attendees: [],
@@ -80,7 +80,7 @@ function mapMeetingFromDb(row) {
     title: row.title,
     date: row.date,
     leader: row.leader || "",
-    category: row.category || MEETING_CATEGORIES[1],
+    category: row.category || MEETING_CATEGORIES[0],
     agenda: row.agenda || "",
     discussion: row.discussion || "",
     attendees: sortAttendees(
